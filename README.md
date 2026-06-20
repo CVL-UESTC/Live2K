@@ -9,7 +9,6 @@ The Live2K dataset can be downloaded from Baidu Netdisk:
 
 Extraction code: `sprq`
 
-More data will be released as soon as possible.
 
 ## Code
 

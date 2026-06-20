@@ -1,2 +1,10 @@
 # Live2K
 ECCV2026 -Perceiving Better Moments: Cover Frame Reselection and Enhancement for Live Photos
+
+## Dataset Download
+
+The Live2K dataset can be downloaded from Baidu Netdisk:
+
+[Download Live2K Dataset](https://pan.baidu.com/s/1gMonGcy5Nnt7ES4Ps6LQIQ?pwd=sprq)
+
+Extraction code: `sprq`

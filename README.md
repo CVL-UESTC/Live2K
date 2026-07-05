@@ -33,7 +33,7 @@ Contact:
 
 ## Dataset
 
-The Live2K dataset can be downloaded from Baidu Netdisk:
+The original Live2K dataset can be downloaded from Baidu Netdisk:
 
 [Download Live2K Dataset](https://pan.baidu.com/s/1gMonGcy5Nnt7ES4Ps6LQIQ?pwd=sprq)
 
@@ -42,6 +42,8 @@ Extraction code:
 ```text
 sprq
 ```
+
+Full dataset will be release soon.
 
 The dataset loader expects each Live Photo sample to be stored as one subfolder:
 

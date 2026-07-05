@@ -6,7 +6,6 @@ Live Photos contain a high-quality cover image and a short burst of video frames
 
 This repository studies **Live Photo Cover Frame Reselection and Enhancement (LPRE)**. Given a user-reselected low-quality frame, its adjacent video frames, and the original high-quality cover image as reference, the goal is to reconstruct a high-quality replacement cover frame with improved detail, color, and dynamic range.
 
-Project page: <https://github.com/CVL-UESTC/Live2K>
 
 ## Paper
 

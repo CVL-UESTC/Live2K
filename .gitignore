@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Runtime logs and experiment outputs
+.tensorboard-info/
+tb_logger/
+wandb/
+checkpoint/
+results/
+outputs/
+test_speed/
+
+# Dataset path lists and local generated metadata
+data/data_txt/
+
+# Common temporary files
+*.log
+*.tmp
+*.bak
+
+# Model checkpoints produced by training
+*.state
+net_g_latest.pth

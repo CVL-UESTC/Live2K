@@ -1,0 +1,46 @@
+# general settings
+name: speed
+
+model_type: TestModel
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 10
+
+# dataset and data loader settings
+datasets:
+
+  test:
+    name: live
+    type: SRDataset
+
+    dataroot: /data1/loujunyu2/OPPO/test_pairs_2
+    
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk
+      # type: lmdb
+      # type: txt
+
+    
+
+# network structures
+network_g:
+  type: LPENet
+  ngf: 128
+  depths: [4,4]
+  num_heads: [4,4]
+  window_size: 8
+  use_checkpoint: True
+
+
+# path
+path:
+  root: results
+  pretrain_network_g: pretrained/oppo.pth
+  strict_load_g: true
+
+val:
+  times_per_img: 100
+  num_img: 1
+  fix_img_size: [4096, 3072]
+
+  

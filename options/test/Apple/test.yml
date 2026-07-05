@@ -1,0 +1,54 @@
+# general settings
+name: apple
+
+model_type: TestModel
+num_gpu: 1  # set num_gpu: 0 for cpu mode
+manual_seed: 10
+
+# dataset and data loader settings
+datasets:
+
+  test:
+    name: live
+    type: SRDataset
+
+    dataroot: /data0/home/loujunyu2/Iphone/test_pairs_2
+    
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk
+      # type: lmdb
+      # type: txt
+
+    
+
+# network structures
+network_g:
+  type: LPENet
+  ngf: 128
+  depths: [4,4]
+  num_heads: [4,4]
+  window_size: 8
+  use_checkpoint: True
+
+# path
+path:
+  root: results
+  pretrain_network_g: pretrained/iPhone.pth
+  strict_load_g: true
+
+val:
+  save_img: false
+  suffix: ~  # add suffix to saved images, if None, use exp name
+  # visuals: [lq, lq_gg, base, gt, output]
+  visuals: [output,gt]
+
+  metrics:
+    psnr:
+      type: psnr
+    ssim:
+      type: ssim
+    lpips:                    
+      type: lpips
+
+  

@@ -7,7 +7,7 @@ Official implementation of **Perceiving Better Moments: Cover Frame Reselection 
 Live Photos contain a high-quality cover image and a short burst of video frames. In real smartphones, these two parts are produced by different imaging pipelines: the cover image receives full computational photography processing, while the video frames are usually lower-resolution, compressed, and less color-consistent. When users choose another video frame as the cover, the selected frame often looks much worse than the original cover.
 
 <p align="center">
-  <img src="imgs/figure1.png" alt="Live Photo imaging pipelines" width="70%">
+  <img src="imgs/figure1.png" alt="Live Photo imaging pipelines" width="80%">
 </p>
 <p align="center"><em>Live Photo imaging pipelines for high-quality cover photos and lower-quality video frames.</em></p>
 

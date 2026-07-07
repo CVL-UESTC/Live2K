@@ -6,7 +6,17 @@ Official implementation of **Perceiving Better Moments: Cover Frame Reselection 
 
 Live Photos contain a high-quality cover image and a short burst of video frames. In real smartphones, these two parts are produced by different imaging pipelines: the cover image receives full computational photography processing, while the video frames are usually lower-resolution, compressed, and less color-consistent. When users choose another video frame as the cover, the selected frame often looks much worse than the original cover.
 
+<p align="center">
+  <img src="imgs/figure1.png" alt="Live Photo imaging pipelines" width="100%">
+</p>
+<p align="center"><em>Live Photo imaging pipelines for high-quality cover photos and lower-quality video frames.</em></p>
+
 This repository studies **Live Photo Cover Frame Reselection and Enhancement (LPRE)**. Given a user-reselected low-quality frame, its adjacent video frames, and the original high-quality cover image as reference, the goal is to reconstruct a high-quality replacement cover frame with improved detail, color, and dynamic range.
+
+<p align="center">
+  <img src="imgs/figure2.png" alt="Live Photo cover frame reselection and enhancement" width="100%">
+</p>
+<p align="center"><em>LPRE improves a directly reselected cover frame with reference-guided enhancement.</em></p>
 
 ## Highlights
 
@@ -18,6 +28,11 @@ This repository studies **Live Photo Cover Frame Reselection and Enhancement (LP
   - reference-guided super-resolution.
 
 ## Dataset
+
+<p align="center">
+  <img src="imgs/figure3.png" alt="Live2K dataset examples" width="100%">
+</p>
+<p align="center"><em>Example scenes from the Live2K dataset.</em></p>
 
 The original Live2K dataset can be downloaded from Baidu Netdisk:
 

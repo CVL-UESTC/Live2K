@@ -12,7 +12,7 @@ datasets:
     name: live
     type: SRDataset
 
-    dataroot: /data1/loujunyu2/OPPO/test_pairs_2
+    dataroot: /data1/loujunyu2/OPPO/test_pairs
     
     filename_tmpl: '{}'
     io_backend:

@@ -11,7 +11,7 @@ datasets:
     name: FdX6P
     type: SRDataset 
      
-    dataroot: /data1/loujunyu2/Iphone/train_patchs_2
+    dataroot: /data1/loujunyu2/Iphone/train_patchs
     
     filename_tmpl: '{}'
     io_backend:
@@ -32,7 +32,7 @@ datasets:
     name: FdX6P_val
     type: SRDataset 
     
-    dataroot: /data0/home/loujunyu2/Iphone/test_pairs_2
+    dataroot: /data0/home/loujunyu2/Iphone/test_pairs
     
     filename_tmpl: '{}'
     io_backend:

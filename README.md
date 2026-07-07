@@ -1,26 +1,12 @@
-# Live2K ECCV 2026
+# Live2K: Cover Frame Reselection and Enhancement for Live Photos
 
-Official implementation for **Perceiving Better Moments: Cover Frame Reselection and Enhancement for Live Photos with the Live2K Dataset**.
+[![arXiv](https://img.shields.io/badge/arXiv-2607.04151-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04151)
+
+Official implementation of **Perceiving Better Moments: Cover Frame Reselection and Enhancement for Live Photos with the Live2K Dataset**, accepted to **ECCV 2026**.
 
 Live Photos contain a high-quality cover image and a short burst of video frames. In real smartphones, these two parts are produced by different imaging pipelines: the cover image receives full computational photography processing, while the video frames are usually lower-resolution, compressed, and less color-consistent. When users choose another video frame as the cover, the selected frame often looks much worse than the original cover.
 
 This repository studies **Live Photo Cover Frame Reselection and Enhancement (LPRE)**. Given a user-reselected low-quality frame, its adjacent video frames, and the original high-quality cover image as reference, the goal is to reconstruct a high-quality replacement cover frame with improved detail, color, and dynamic range.
-
-
-## Paper
-
-**Perceiving Better Moments: Cover Frame Reselection and Enhancement for Live Photos with the Live2K Dataset**
-
-Junyu Lou, Kai Chen, Weiyi You, Hui Zeng, Lei Zhang, Shuhang Gu
-
-Affiliations:
-- University of Electronic Science and Technology of China
-- OPPO Research Institute
-- The Hong Kong Polytechnic University
-
-Contact:
-- `junyulou.jy@gmail.com`
-- `shuhanggu@gmail.com`
 
 ## Highlights
 

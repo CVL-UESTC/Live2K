@@ -1,4 +1,4 @@
-# Live2K: Cover Frame Reselection and Enhancement for Live Photos
+# Live2K
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.04151-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04151)
 

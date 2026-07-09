@@ -1,6 +1,7 @@
 # Live2K
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.04151-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04151)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/Locip/Live2K)
 
 Official implementation of **Perceiving Better Moments: Cover Frame Reselection and Enhancement for Live Photos with the Live2K Dataset**, accepted to **ECCV 2026**.
 
@@ -34,7 +35,11 @@ This repository studies **Live Photo Cover Frame Reselection and Enhancement (LP
 </p>
 <p align="center"><em>Example scenes from the Live2K dataset.</em></p>
 
-The original Live2K dataset can be downloaded from Baidu Netdisk:
+The Live2K dataset can be downloaded from Hugging Face:
+
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Live2K-yellow)](https://huggingface.co/datasets/Locip/Live2K)
+
+The original Live2K dataset can also be downloaded from Baidu Netdisk:
 
 [Download Live2K Dataset](https://pan.baidu.com/s/1gMonGcy5Nnt7ES4Ps6LQIQ?pwd=sprq)
 
@@ -42,9 +47,6 @@ Extraction code:
 
 ```text
 sprq
-```
-
-Full dataset will be release soon.
 
 The dataset loader expects each Live Photo sample to be stored as one subfolder:
 
